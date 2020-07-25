@@ -1,0 +1,76 @@
+* {
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+    /*********** HEADER ***********/
+#header-nav {
+    min-height: 80px;
+    background-color: rgb(156, 156, 156);
+    border-radius: 0;
+    border: 1.2px black solid;
+}
+.navbar-brand h1 {
+    color: #000000;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin: 0;
+  }
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.nav, .navbar-nav span {
+    text-align: center;
+    vertical-align: middle; 
+    font-size: 1.1em;
+}
+
+.nav, .navbar-nav span > hr {
+    margin: 5px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1.2px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -35px;
+}
+
+hr {
+    border: 1.2px black solid;
+    margin: 5px;
+}
+    /*********** HEADER END ***********/
+
+    /*********** BODY ***********/
+#heading {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+h3{
+    font-size: 1.5em;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.content {
+    background-color:rgb(156, 156, 156);
+}
+
+.content p {
+    padding: 10px;
+}
+
+/********** Extra Small devices only **********/
+@media (max-width: 768px) {
+    #header-nav {
+        min-height: 50px;
+    }
+}
